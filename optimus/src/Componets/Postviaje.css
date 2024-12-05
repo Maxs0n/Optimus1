@@ -1,0 +1,201 @@
+.postular-viaje-card {
+  width: 500px;
+  max-height: 500px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  overflow-x: hidden; /* Permite el scroll si el contenido es demasiado largo */
+  margin-left: 100px; /* 💡 Mueve el componente automáticamente hacia la derecha */
+  margin-right: 30px; /* 💡 Añade un espacio fijo desde el lado derecho */
+  margin-top: 20px; /* Espaciado superior */
+}
+/* Ocultar los botones de incremento y decremento en navegadores basados en WebKit (Chrome, Edge, Safari, etc.) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Elimina los controles nativos */
+  margin: 0;
+}
+
+/* Ocultar los botones de incremento y decremento en navegadores basados en Gecko (Firefox) */
+input[type="number"] {
+  -moz-appearance: textfield; /* Cambia el estilo al de un campo de texto */
+  appearance: textfield; /* Para soporte adicional */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Elimina los controles nativos */
+  margin: 0;
+}
+
+/* Ocultar los botones de incremento y decremento en navegadores basados en Gecko (Firefox) */
+input[type="time"] {
+  -moz-appearance: textfield; /* Cambia el estilo al de un campo de texto */
+  appearance: textfield; /* Para soporte adicional */
+}
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #47a;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input[type="text"] {
+    width: 350px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .image-upload {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .image-placeholder {
+    text-align: center;
+    color: #999;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.postular-viaje-card::-webkit-scrollbar{ 
+  height: 300px;
+  overflow-y: scroll;
+  padding-right: 16px; /* Espacio para evitar que el contenido se superponga con el scroll */
+}
+
+/* Personalización del scroll (funciona en Chrome, Safari, Edge) */
+.postular-viaje-card::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+.postular-viaje-card::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Fondo del track del scrollbar */
+}
+
+.postular-viaje-card::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del scrollbar */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+
+-------
+.vista-previa-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vista-previa-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-previa {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  margin-right: 20px;
+}
+
+.image-placeholder {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image-description {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.detalles-previa {
+  flex: 1;
+}
+
+.titulo-publicacion {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.precio-publicacion {
+  font-size: 18px;
+  color: #333;
+}
+
+.estado-publicacion {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.detalles-titulo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detalles-descripcion {
+  font-size: 14px;
+  color: #888;
+}
+
+.detalles-lista {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.detalles-lista li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+

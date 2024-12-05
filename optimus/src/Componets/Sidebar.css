@@ -1,0 +1,63 @@
+/* Estilo principal para la barra lateral */ 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 120px; /* Ajustado para ser más ancho */
+    background-color: #2f4f4f; /* Color de fondo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Espaciado entre los elementos */
+  .sidebar-item {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  /* Botones */
+  .sidebar-button {
+    background: #507d7d; /* Color del botón */
+    border: none;
+    border-radius: 50%; /* Hace los botones circulares */
+    padding: 10px; /* Disminuye el tamaño del relleno */
+    width: 40px; /* Reduce el ancho */
+    height: 40px; /* Reduce el alto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del icono */
+    font-size: 18px; /* Reduce el tamaño del icono */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Botón específico para el lápiz (color distinto) */
+  .pencil-button {
+    background: #5ca8a8; /* Color del lápiz */
+  }
+  
+  /* Hover para los botones */
+  .sidebar-button:hover {
+    background: #a48db4; /* Color al pasar el ratón */
+    transform: scale(1.1); /* Efecto de agrandamiento */
+  }
+  
+  /* Iconos como ≡ */
+  .icon {
+    font-size: 18px; /* Ajusta el tamaño del icono para que sea proporcional */
+    font-weight: bold;
+  }
+  
+  /* Texto debajo de los botones */
+  .sidebar-text {
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+  

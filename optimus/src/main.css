@@ -1,0 +1,211 @@
+*{
+    font-family: sans-serif;
+}
+
+.App{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.head{
+    display:flex;
+    justify-content: end;
+    height: 1px;
+    width: 95%;
+    padding: 20px;
+}
+
+.head p{
+    margin: 12px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.head-icon-user{
+    height: 30px;
+    text-decoration: #333;
+}
+
+.head-icon-bell{
+    height: 30px;
+    margin-right: 35px;
+}
+
+.container{
+margin-top: 40px;       
+display: flex;    
+height: 100%;
+width: 100%;
+}
+
+.columna{
+display: block;
+width: 45%;
+}
+
+.NavBar{
+    background-color: #2A4348;
+    display: block;
+    width: 65%;
+    padding: 35px; 
+    border-radius: 10px;   
+}
+
+.menu{
+    list-style-type: none;
+    font-size: 26px;
+    padding: 30px;
+    text-align: center;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    padding: 40px;
+}
+
+
+.icono{
+    padding-top: 20px;
+    color: rgb(153, 153, 153);
+    margin-right:70px;
+}
+
+.buscador input{
+    width: 250px;
+    height: 30px;
+    border-style: solid;
+    border-color:#2A4348;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #F0F6F8;
+    outline:none
+    
+}
+
+/* MAPA */
+#root{
+    height: 100vh;    
+}
+
+/* Tamaño del contenedor del mapa */
+.leaflet-container{
+    height: 100%;
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.map-container{
+    display: flex;
+    justify-content: end;
+    height: 60vh;
+    width: 90%;
+}
+
+/* CARDS */
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* Las tarjetas se apilarán verticalmente */
+    align-items: center; /* Opcional: para centrar las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+    width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.order-id {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.route-info {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timing-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.departure, .arrival {
+    text-align: 20px;
+    width: 45%;
+}
+
+.departure p, .arrival p {
+    margin: 5px 0;
+}
+
+.details {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details p {
+    margin: 0;
+}
+
+.driver-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.driver-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icons a {
+    margin-left: 20px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #000;
+}
+    

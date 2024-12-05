@@ -1,0 +1,110 @@
+.profile-card {
+    width: 350px;
+    background-color: #dddada;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-image {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camera-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #5fbfdd;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    color: #dddada;
+    cursor: pointer;
+}
+
+.camera-btn i {
+    font-size: 14px;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.profile-company {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.divider {
+    border-bottom: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.stat-label {
+    color: #555;
+    font-size: 14px;
+}
+
+.stat-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5fbfdd;
+}
+
+.profile-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.profile-link a {
+    color: #5fbfdd;
+    text-decoration: none;
+    font-size: 14px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.copy-btn {
+    background-color: #5fbfdd;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.copy-btn i {
+    font-size: 16px;
+}
